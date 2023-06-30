@@ -67,7 +67,7 @@ const Navbar = () => {
                     Hire developers
                   </Link>
                   <Link
-                    className="rounded-md text-sm cursor-pointer px-6 py-3 bg-emerald-600 hover:scale-110 ease-in duration-300 text-white font-bold"
+                    className="rounded-md text-sm cursor-pointer px-6 py-3 bg-emerald-600 hover:scale-110 ease-in duration-300 text-white font-bold mt-5"
                     type="button"
                     onClick={() => setShowModal(false)}
                     to="/register/developer"

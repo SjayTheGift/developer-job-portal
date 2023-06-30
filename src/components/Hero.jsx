@@ -1,8 +1,9 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import {FaLinkedin, FaGithub, FaFileDownload} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
+
   return (
     <section id='about' className='h-screen py-16 text-white max-w-[100%]'>
         <div className='m-auto grid md:grid-cols-2'>
